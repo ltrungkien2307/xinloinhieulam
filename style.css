@@ -1,9 +1,9 @@
 /* Đặt font và tổng thể layout */
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
 }
 
 header span{
@@ -26,17 +26,17 @@ header h1{
 
 /* Center the card container */
 .card-container {
-    position: relative;
+    position: absolute; /* Thay đổi từ relative sang absolute */
+    top: 50%;  /* Đặt thẻ container ở giữa màn hình theo chiều dọc */
+    left: 50%; /* Đặt thẻ container ở giữa màn hình theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch chuyển để căn chính xác vào giữa */
     width: 80vw;  /* Đặt chiều rộng bằng 80% của màn hình */
     height: 80vw; /* Đặt chiều cao bằng 80% của màn hình */
     max-width: 400px; /* Giới hạn chiều rộng tối đa */
-    max-height: 400px; /* Giới hạn chiều cao tối đa */
+    max-height: 400px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%); /* Đảm bảo vị trí luôn ở giữa */
 }
 
 .card {
