@@ -128,19 +128,4 @@ header h1{
 }
 
 /* Media query để tối ưu cho thiết bị di động */
-@media (max-width: 768px) {
-    .card-container {
-        width: 90vw;   /* Đảm bảo container chiếm 90% chiều rộng màn hình */
-        height: 90vw;  /* Đảm bảo container chiếm 90% chiều cao màn hình */
-    }
 
-    .card {
-        width: 100px;  /* Điều chỉnh kích thước của thẻ */
-        height: 160px; /* Điều chỉnh kích thước của thẻ */
-    }
-    
-    #messengerBtn {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-}
