@@ -41,8 +41,8 @@ header h1{
 
 .card {
     position: absolute;
-    width: 120px;  /* Chiều rộng của thẻ */
-    height: 200px; /* Chiều cao của thẻ */
+    width: 150px;  /* Chiều rộng của thẻ */
+    height: 250px; /* Chiều cao của thẻ */
     transform-origin: bottom center;
     transform-style: preserve-3d;
     transition: transform 0.6s ease, opacity 0.6s ease, z-index 0.6s ease;
